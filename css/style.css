@@ -145,3 +145,13 @@ footer ul
     list-style: none;
     list-style-position: inside;
 }
+
+/*footer > div.row > div*/
+/*{*/
+/*    border-right:3px solid #218760;*/
+/*}*/
+
+/*footer > div.row > div:first-child*/
+/*{*/
+/*    border: none;*/
+/*}*/
