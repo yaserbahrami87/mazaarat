@@ -13,8 +13,22 @@
 <body>
 <main class="container-fluid" id="main_signup" dir="rtl">
     <div class="row align-items-center" id="signup">
-        <div class="col-md-4 text-left mx-auto d-none d-md-block d-lg-block d-xl-block">
-            <form>
+        <div class=" col-md-4 text-left mx-auto"  >
+            <div class="collapse text-right" id="collapseGallery">
+                <span class="d-block mb-3">
+                    <a href=""  class="d-inlineblock">
+                        عکس های نخستین جشنواره
+                    </a>
+                </span>
+                <span class="d-block">
+                    <a href="" class="d-inlineblock">
+                        تـصــویــر جشـــنــواره
+                    </a >
+                </span>
+
+            </div>
+
+            <form class="collapse" id="collapseExample">
                 <div class="input-group mb-3">
                     <div class="input-group-prepend">
                         <span class="input-group-text" >نام</span>
@@ -48,13 +62,13 @@
         <div class="col-md-4 text-left mx-auto">
             <ul class="nav flex-column">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">ثبت نام</a>
+                    <a class="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" >ثبت نام</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ارسال عکس</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">گالری</a>
+                    <a class="nav-link" data-toggle="collapse" href="#collapseGallery" role="button" aria-expanded="false" aria-controls="collapseGallery" >گالری</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">اخبار</a>
@@ -94,7 +108,7 @@
             <p class="m-0 text-justify">مشهد . چهارراه شهدا . سازمان مرکزی آستان قدس رضوی . معاونت طرح و برنامه 051-3225058 . 051-32001146 </p>
             <a href="mailto:tarh.bamame@aqrazavi.org">tarh.bamame@aqrazavi.org</a>
         </div>
-        <div class="col-md-2 align-items-center text-justify h-100">
+        <div class="col-md-2 align-items-center text-justify">
             <b>&nbsp;</b>
             <p>تمام حقوق این وبگاه متعلق به آستان قدس رضوی است</p>
         </div>
