@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'nianAmir';
+    src: url("../fonts/W_ferdosi.ttf");
+}
+
+*
+{
+    font-family: 'nianAmir';
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+#main_home{
+    background-color: #1e1e1c;
+    height: 100vh;
+    background-image: url("../images/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#main_home img
+{
+    opacity: 0.8;
+}
+
+#main_home a
+{
+    font-size: 1.3em;
+    color: #8e9092;
+}
+
+#main_home >.row >div:first-child a::before
+{
+    content: url("../images/after.png");
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+
+#main_home  >.row > div:last-child a::after
+{
+    content: url("../images/after.png");
+    position: relative;
+    top: 10px;
+    right: 10px;
+}
